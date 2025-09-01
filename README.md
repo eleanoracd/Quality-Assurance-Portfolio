@@ -31,3 +31,6 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
 - Google Play x Unity - Unity Game Developer Training Program | April 2023 - November 2023
 - Agate International - Game Development Course and Bootcamp | August 2021 - Jan 2022
 - Universitas Padjajaran in Collaboration with Microsoft Indonesia - Microsoft 365 Bootcamp | August 2021 - October 2021
+
+## Certificates
+- EF Set Certificate: C2 Proficient - [Muhamad Hariyanto's EF Set Certificate](https://1drv.ms/b/c/b37bdd569ab26057/EdxCwx47PahApcs87wK_I1MB5T1RWbUKATF6EpR-ds_3Dg?e=BW2raF)
