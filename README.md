@@ -21,7 +21,7 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
   Public betas using Steam playtesting system.
 - Stella Race 2025 | PC \
   Requirement for Quality Assurance position at Agate International. Creating Test Case & Bug Tracking documents and Sorting Compliance Documents For XBox.
-- Stechoq Academy (Learning Management System) 2022 | Website
+- Stechoq Academy (Learning Management System) 2022 | Website \
   Internship. API testing using Postman.
 
 ## Courses
