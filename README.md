@@ -19,12 +19,13 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
   Community playtesting, voluntary work.
 - [Dark And Darker](https://store.steampowered.com/app/2016590/Dark_and_Darker/) 2024 | PC \
   Public betas using Steam playtesting system.
-- Stellarace 2025 | PC \
+- Stella Race 2025 | PC \
   Requirement for Quality Assurance position at Agate International. Creating Test Case & Bug Tracking documents and Sorting Compliance Documents For XBox.
 - Stechoq Academy (Learning Management System) 2022 | Website
   Internship. API testing using Postman.
 
 ## Courses
+- Learn Jira with real-world examples (+Confluence bonus), Udemy
 - Kick off your gaming QA career: basics of testing for games, Udemy
 - QA: Become a game tester 2025, Udemy
 - Postman: The Complete Guide - REST API Testing, Udemy
