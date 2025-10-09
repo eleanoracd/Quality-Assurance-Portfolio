@@ -25,10 +25,10 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
   Internship. API testing using Postman.
 
 ## Courses
-- Learn Jira with real-world examples (+Confluence bonus), Udemy
-- Kick off your gaming QA career: basics of testing for games, Udemy
-- QA: Become a game tester 2025, Udemy
-- Postman: The Complete Guide - REST API Testing, Udemy
+- Learn Jira with real-world examples (+Confluence bonus), Udemy | August 2025 - Now
+- Postman: The Complete Guide - REST API Testing, Udemy | July 2025 - Now
+- Kick off your gaming QA career: basics of testing for games, Udemy | March 2025 - April 2025
+- QA: Become a game tester 2025, Udemy | January 2025 - March 2025
 - Google Play x Unity - Unity Game Developer Training Program | April 2023 - November 2023
 - Agate International - Game Development Course and Bootcamp | August 2021 - Jan 2022
 - Universitas Padjajaran in Collaboration with Microsoft Indonesia - Microsoft 365 Bootcamp | August 2021 - October 2021
