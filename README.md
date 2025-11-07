@@ -11,8 +11,8 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
 - Discord: @yukiibo
 
 ## Experiences
-- [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) 2025 | PC \
-  Voluntary work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
+- [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) July 2025 - Now | PC \
+  Freelance work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
 - [Chu Bang](https://enmakami.itch.io/chu-bang) 2025 | PC (Gameseed 2025 entry) \
   voluntray black box testing.
 - [Black Survival: Project Lumia](https://projectlumia.com/) 2024 - Now | PC \
