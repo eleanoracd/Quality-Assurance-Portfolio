@@ -11,13 +11,15 @@ Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experie
 - Discord: @yukiibo
 
 ## Experiences
-- [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) July 2025 - Now | PC \
-  Freelance work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
-- [Chu Bang](https://enmakami.itch.io/chu-bang) 2025 | PC (Gameseed 2025 entry) \
-  voluntray black box testing.
-- [Black Survival: Project Lumia](https://projectlumia.com/) 2024 - Now | PC \
+- [Game Account Operator] February 2022 - Now | Pc & Mobile \
+  Manage and execute daily, weekly, and monthly in-game tasks and special event requirements across multiple accounts.
+- [Black Survival: Project Lumia](https://projectlumia.com/) December 2024 - Now | PC \
   Community playtesting, voluntary work.
-- [Dark And Darker](https://store.steampowered.com/app/2016590/Dark_and_Darker/) 2024 | PC \
+- [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) July 2025 - August 2025 | PC \
+  Voluntary work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
+- [Chu Bang](https://enmakami.itch.io/chu-bang) July 2025 | PC (Gameseed 2025 entry) \
+  voluntray black box testing.
+- [Dark And Darker](https://store.steampowered.com/app/2016590/Dark_and_Darker/) July 2024 | PC \
   Public betas using Steam playtesting system.
 - Stella Race 2025 | PC \
   Requirement test for Quality Assurance position at Agate International. Creating Test Case & Bug Tracking documents and Sorting Compliance Documents For XBox.
