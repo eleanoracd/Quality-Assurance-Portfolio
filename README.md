@@ -3,18 +3,22 @@
 Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experience in game development. Since a kid, I always have interest in video game, especially a co-op game. As time went on, I decided to join in game development, building and testing games, gaining experience from it. I like every type of game, but co-op game is still my favourite. I have a lot of knowledge on games and gaming and their communities, giving me technical knowledge of game functionality, errors, bugs, solutions, and feedbacks in the precise way to help creating a good products for public usage.
 
 ## Professional Resume
-- English CV: [Muhamad Hariyanto's CV](https://1drv.ms/b/c/b37bdd569ab26057/ERsPOZoveetLkdR1Rg1N5H4BqH55iAQegNDuUfEGCxH2hg?e=wOwZiq)
+- English CV: [Muhamad Hariyanto's CV QA](https://drive.google.com/file/d/1CPtY5lD-HSOuy3ChrAcAA1v-3ITpSMwB/view?usp=drive_link)
 - LinkedIn Profile: [Muhamad Hariyanto's LinkedIn](https://www.linkedin.com/in/reinswordk/)
 
 ## Communication
-- E-mail: reinsword.work@outlook.com || muhamadhariyanto.personal@gmail.com
+- E-mail: muhamadhariyanto.personal@gmail.com
 - Discord: @yukiibo
 
 ## Experiences
-- [Game Account Operator] February 2022 - Now | Pc & Mobile \
+- Game Account Operator February 2022 - Now | Pc & Mobile \
   Manage and execute daily, weekly, and monthly in-game tasks and special event requirements across multiple accounts.
 - [Black Survival: Project Lumia](https://projectlumia.com/) December 2024 - Now | PC \
   Community playtesting, voluntary work.
+- [GajiHub](https://gajihub.com/) February 2026 | Web \
+  Assessment test, creating test cases. Test cases can be accessed [here](https://docs.google.com/spreadsheets/d/1Gj_1FDQuD4A_3TpCMguvyRaVq08UQtlM/edit?usp=drive_link&ouid=118008456246447436729&rtpof=true&sd=true)
+- [Unrivaled Heroes](https://store.steampowered.com/app/2690830/Unrivaled_Heroes_25D_Brawler/) February 2026 | PC \
+  Internship task, testing & bug tracking. Bugs documentation can be accessed [here](https://docs.google.com/spreadsheets/d/17i37iCikPe2pf8oFTzH_xvm-_60XgAqP/edit?usp=drive_link&ouid=118008456246447436729&rtpof=true&sd=true)
 - [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) July 2025 - August 2025 | PC \
   Voluntary work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
 - [Chu Bang](https://enmakami.itch.io/chu-bang) July 2025 | PC (Gameseed 2025 entry) \
