@@ -1,43 +1,195 @@
 # Muhamad Hariyanto's Quality Assurance Portfolio
 ## Profile
-Hello, my name is Muhamad Hariyanto, a fresh graduate with almost 1 year experience in game development. Since a kid, I always have interest in video game, especially a co-op game. As time went on, I decided to join in game development, building and testing games, gaining experience from it. I like every type of game, but co-op game is still my favourite. I have a lot of knowledge on games and gaming and their communities, giving me technical knowledge of game functionality, errors, bugs, solutions, and feedbacks in the precise way to help creating a good products for public usage.
+Aspiring QA Engineer with experience in manual testing, game testing, API testing, and gameplay balancing.
 
-## Professional Resume
-- English CV: [Muhamad Hariyanto's CV QA](https://drive.google.com/file/d/1CPtY5lD-HSOuy3ChrAcAA1v-3ITpSMwB/view?usp=drive_link)
-- LinkedIn Profile: [Muhamad Hariyanto's LinkedIn](https://www.linkedin.com/in/reinswordk/)
+This portfolio contains selected QA case studies demonstrating:
+- Bug investigation & documentation
+- Test case design
+- Gameplay balancing analysis
+- QA communication workflow
+- Analytical thinking in game systems.
 
-## Communication
-- E-mail: muhamadhariyanto.personal@gmail.com
-- Discord: @yukiibo
+## QA Skills
 
-## Experiences
-- Game Account Operator February 2022 - Now | Pc & Mobile \
-  Manage and execute daily, weekly, and monthly in-game tasks and special event requirements across multiple accounts.
-- [Black Survival: Project Lumia](https://projectlumia.com/) December 2024 - Now | PC \
-  Community playtesting, voluntary work.
-- [GajiHub](https://gajihub.com/) February 2026 | Web \
-  Assessment test, creating test cases. Test cases can be accessed [here](https://docs.google.com/spreadsheets/d/1Gj_1FDQuD4A_3TpCMguvyRaVq08UQtlM/edit?usp=drive_link&ouid=118008456246447436729&rtpof=true&sd=true)
-- [Unrivaled Heroes](https://store.steampowered.com/app/2690830/Unrivaled_Heroes_25D_Brawler/) February 2026 | PC \
-  Internship task, testing & bug tracking. Bugs documentation can be accessed [here](https://docs.google.com/spreadsheets/d/17i37iCikPe2pf8oFTzH_xvm-_60XgAqP/edit?usp=drive_link&ouid=118008456246447436729&rtpof=true&sd=true)
-- [Once Upon A Kingdom](https://store.steampowered.com/app/3316970/Once_Upon_A_Kingdom/) July 2025 - August 2025 | PC \
-  Voluntary work, black box testing. Test case & Bug found can be accessed [here](https://1drv.ms/x/c/b37bdd569ab26057/EVLpxnS_kBRBoP8JtuxYTH4BXZRVRql6k3sqbXnqihVMUQ?e=UvTJKH).
-- [Chu Bang](https://enmakami.itch.io/chu-bang) July 2025 | PC (Gameseed 2025 entry) \
-  voluntray black box testing.
-- [Dark And Darker](https://store.steampowered.com/app/2016590/Dark_and_Darker/) July 2024 | PC \
-  Public betas using Steam playtesting system.
-- Stella Race 2025 | PC \
-  Requirement test for Quality Assurance position at Agate International. Creating Test Case & Bug Tracking documents and Sorting Compliance Documents For XBox.
-- Stechoq Academy (Learning Management System) 2022 | Website \
-  Internship. API testing using Postman.
+- Manual Testing
+- Black-box Testing
+- Regression Testing
+- API Testing (Postman)
+- Bug Documentation
+- Test Case Design
+- Gameplay Balancing
+- Jira & Notion
+- Unity Game Understanding
 
-## Courses
-- Learn Jira with real-world examples (+Confluence bonus), Udemy | August 2025 - Now
-- Postman: The Complete Guide - REST API Testing, Udemy | July 2025 - Now
-- Kick off your gaming QA career: basics of testing for games, Udemy | March 2025 - April 2025
-- QA: Become a game tester 2025, Udemy | January 2025 - March 2025
-- Google Play x Unity - Unity Game Developer Training Program | April 2023 - November 2023
-- Agate International - Game Development Course and Bootcamp | August 2021 - Jan 2022
-- Universitas Padjajaran in Collaboration with Microsoft Indonesia - Microsoft 365 Bootcamp | August 2021 - October 2021
+# Featured QA Case Studies
 
-## Certificates
-- EF Set Certificate: C2 Proficient - [Muhamad Hariyanto's EF Set Certificate](https://1drv.ms/b/c/b37bdd569ab26057/EdxCwx47PahApcs87wK_I1MB5T1RWbUKATF6EpR-ds_3Dg?e=BW2raF)
+| Case Study | Focus Area | Skills Demonstrated |
+|---|---|---|
+| Bug Report Investigation | Functional Testing | Reproduction, Severity Analysis, Documentation |
+| Feature Test Suite | Test Design | Positive/Negative Cases, Coverage Thinking |
+| Gameplay Balancing Feedback | Game QA | System Analysis, Economy Balancing |
+
+# Case Study 1 — Item Drop System Bug
+
+## Bug Information
+- Bug ID: UH-069
+- Category: Gameplay / Item System
+- Severity: High
+- Priority: Medium
+- Frequency: 100% Reproducible
+
+## Project Context
+Unrivaled Heroes: 2.5D Brawler is a 2.5D side-scrolling beat-'em-up game where players control multiple heroes with unique abilities and combat styles.
+
+The tested feature was the Item Drop System, where players can recover HP/MP by collecting items dropped from defeated enemies or destructible objects such as barrels.
+
+## Bug Summary
+Players are able to recover HP/MP multiple times from a single dropped item by repeatedly moving left and right while colliding with the item before it disappears.
+
+## Environmnet
+- Build Version: 2021.3.45.63631
+- Platform: Windows Desktop
+- Test Date: 06 February 2026
+- Tester: Muhamad Hariyanto
+
+## Reproduction Steps
+1. Reduce the player's HP.
+2. Consume HP Item, until it reaches approximately 8/10 or lower.
+3. Locate a destructible barrel.
+4. Destroy the barrel to trigger an HP item drop.
+5. Move the character into the dropped HP item to collect it.
+6. Continue moving left and right while maintaining collision with the item before it disappears.
+
+## Expected Result
+The player should only recover HP/MP item once from a single dropped item.
+
+## Actual Result
+The player is able to recover HP/MP item multiple times from the same item depending on movement speed and collision timing before the item disappears.
+
+
+## Root Cause Analysis
+Based on initial analysis, the issue may occur because the HP/MP pickup system uses OnTriggerEnter for item collection, while the dropped item remains active for a short duration after the first collision. This allows multiple collision triggers to occur before the object is removed or disabled.
+
+## Evidence
+<img width="400" height="225" alt="Bug-069" src="https://github.com/user-attachments/assets/b4bbce6a-00ca-4b2f-a1ba-3d5b6151dbaf" />
+
+## Impact
+This issue can significantly affect gameplay balance and player behavior.
+
+Since players can repeatedly gain multiple HP/MP item from a single item drop, the bug may:
+1. Reduce combat difficulty
+2. Invalidate resource management mechanics
+3. Encourage reckless gameplay
+4. Negatively impact intended progression balance
+
+If exploited consistently, players may become nearly unkillable during combat encounters, reducing the overall challenge and gameplay experience.
+
+# Case Study 2 - Audio & Settings System Test Suite
+
+## Feature Overview
+This test suite focuses on the Audio & Settings System in Unirvaled Heroes: 2.5D Brawler. The tested features include:
+1. Music volume settings
+2. SFX volume settings
+3. Pause menu interaction
+4. Audio persistence after restarting the game
+5. Audio playback validation
+
+The purpose of this testing activity was to verify that the audio settings functioned correctly across gameplay sessions while maintaining consisten user experience and expected game behavior.
+
+## Testing Scope
+
+### Included Scope
+1. Music volume adjustment
+2. SFX volume adjustment
+3. Pause menu functionality
+4. Audio mute behavior
+5. Audio persistence after restarting the game
+6. UI button mapping visibility
+7. Tutorial information consistency
+8. Achievement validation
+
+### Excluded Scope
+1. Multiplayer audio synchronization
+2. Hardware-specific audio driver issues
+3. Voice chat systems
+4. External audio devices
+
+## Test Strategy
+The testing process focused on validating both functional behavior and edge cases related toi the game's audio system and settings persistence.
+The strategy included:
+1. Functional Testing
+2. Regression Testing
+3. UI Validation
+4. Settings Persistence Validation
+5. Negative Testing
+6. Gameplay Consistency Validation
+
+Special attention was given to:
+1. Audio behavior when values are set to zero
+2. Persistence of player settigns after restarting the game
+3. Consistency between UI information and actual gameplay behavior
+4. Pause menu interaction reliability
+
+## Test Cases
+| ID | Scenario | Expected Result | Status |
+| --- | --- | --- | --- |
+| TC-001 | Change Music volume then cancel using ESC | Value should revert to previous setting | Fail |
+| TC-002 | Set Music volume between 5%-40% | Music should still be audible | Fail |
+| TC-003 | Restart game after changing audio settings | Settings should persist after restart | Fail |
+| TC-004 | Set SFX volume to 0% | NO SFX sound should be generated | Fail |
+| TC-005 | Open Pause menu | All movement contrrol mappings should be displayed correctly | Fail |
+| TC-006 | Set Music volume between 50%-90% | Music volume changed | Success |
+
+## Coverage Considerations
+The testing process intentionally covered:
+
+### Functional Validation
+1. Audio settings adjusment
+
+### Edge Cases
+1. Audi value set to zero
+2. Low audio percentage values
+3. Restarting the game after settings changes
+
+## Findings Summary
+| Metric | Result |
+| --- | --- |
+| Total Bugs Reported | 6 |
+| High Severity Issues | 2 |
+| Medium Severity Issues | 3 |
+| Low Severity Issues | 1 |
+| Systems Tested | Audio, UI, Gameplay, Achievement, Collision |
+| Testing Type | Functional & Regression |
+
+## Key Findings
+
+### 1. Audio Settings Persistence Issues
+Several issues were identified where audio settings failed to save or apply correctly after restarting the game.
+
+#### Impact
+1. Reduces user experience consistency
+2. Causes player frustration
+3. Makes customization unreliable
+
+### 2. Audio Mute Validation Failure
+SFX and music systems continued generating audio under certain conditions despite volume being set to zero.
+
+### Impact
+1. Audio settings become unreliable
+2. Reduces accessibility for players preferring muted gameplay
+
+## QA Skills Demonstrated
+1. Manual Testing
+2. Functional Testing
+3. Regression Testing
+4. Edge Case Validation
+5. Bug Documentation
+6. Gameplay Analysis
+7. Test coverage Planning
+8. Severity & Priority Classification
+
+## Tools Used
+1. Notion
+2. Microsoft Excel
+3. GitHub
+4. Windows Desktop Environment
